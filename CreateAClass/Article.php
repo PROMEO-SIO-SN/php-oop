@@ -33,4 +33,9 @@ class Article
     {
         return $this->content;
     }
+
+    public function setTitle(string $title)
+    {
+        $this->title = $title;
+    }
 }
