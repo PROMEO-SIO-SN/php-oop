@@ -1,0 +1,17 @@
+{
+    "name": "jeremy/03_autoloading-and-composer",
+    "autoload": {
+        "psr-4": {
+            "Ecommerce\\": "Ecommerce/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JeremyDfr",
+            "email": "dufroyjeremy@gmail.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.66"
+    }
+}
