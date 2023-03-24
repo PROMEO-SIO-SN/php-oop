@@ -134,3 +134,9 @@ var_dump($paymentPaypal, $paymentStripe);
 // Affiche la date du jour avec le bon format
 echo '<pre>' . Carbon::now()->format('d/m/Y') . '</pre>';
 ```
+### Commandes les plus utiles
+
+- `composer init`: initialiser composer dans un dossier
+- `composer install`: Installer les packages lorsqu'il y a déjà un composer.json
+- `composer dump-autoload`: Mettre à jour la configuration de composer
+- `composer update`: Mettre à jour les packages
